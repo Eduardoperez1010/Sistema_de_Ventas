@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool) env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +67,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Mexico_City',
+    // zona horaria
 
     /*
     |--------------------------------------------------------------------------
@@ -80,8 +81,8 @@ return [
     |
     */
 
-    'locale' => 'en',
-
+    'locale' => 'es',
+    // Lenguaje  a utilizar
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
